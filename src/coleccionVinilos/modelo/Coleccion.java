@@ -36,7 +36,7 @@ public class Coleccion {
         return false;
     }
 
-    public void mostrarColeccionCompleto() {
+    public void mostrarColeccionCompleta() {
         for (int i = 0; i < this.cantidadActual; i++) {
             System.out.println("Fila " + (i+1) + ": " + this.listaVinilos[i]);
         }
